@@ -1,0 +1,22 @@
+<shape h="50" w="100" aspect="fixed" strokewidth="inherit" name="jordat uttag"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://jgraph.github.io/mxgraph/docs/stencils.xsd">
+    <connections>
+        <constraint x="0.5" y="1" perimeter="1" />
+    </connections>
+    <foreground>
+        <!-- arc with opening up -->
+        <path>
+            <move x="0" y="0" />
+            <arc x="100" y="0" rx="1.0" ry="1.0" large-arc-flag="1" sweep-flag="0"
+                x-axis-rotation="0" />
+        </path>
+        <stroke />
+        <path>
+            <move x="0" y="50" />
+            <line x="100" y="50" />
+        </path>
+        <stroke />
+    </foreground>
+</shape>
+  

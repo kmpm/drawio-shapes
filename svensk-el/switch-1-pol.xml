@@ -1,0 +1,18 @@
+<shape name="Strömbrytare enpolig" w="100" h="80" strokewidth="2" aspect="fixed"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://jgraph.github.io/mxgraph/docs/stencils.xsd">
+    <connections>
+        <constraint x="0.5" y="0.6" perimeter="1" />
+    </connections>
+    <foreground>
+        <ellipse x="30" y="40" w="40" h="40" />
+        <stroke />
+        <path>
+            <move x="61" y="42" />
+            <line x="80" y="10" />
+            <line x="100" y="21" />
+        </path>
+        <stroke />
+    </foreground>
+</shape>
+  
