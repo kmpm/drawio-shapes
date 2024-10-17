@@ -1,0 +1,21 @@
+<shape h="100" w="100" aspect="fixed" strokewidth="inherit" name="lampa"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://jgraph.github.io/mxgraph/docs/stencils.xsd">
+    <connections>
+        <constraint x="0.5" y="0.5" perimeter="0" />
+    </connections>
+    <foreground>
+        <!-- arc with opening up -->
+        <path>
+            <move x="0" y="0" />
+            <line x="100" y="100" />
+        </path>
+        <stroke />
+        <path>
+            <move x="0" y="100" />
+            <line x="100" y="0" />
+        </path>
+        <stroke />
+    </foreground>
+</shape>
+  

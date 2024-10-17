@@ -2,7 +2,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="https://jgraph.github.io/mxgraph/docs/stencils.xsd">
     <connections>
-        <constraint x="0.5" y="0.6" perimeter="1" />
+        <constraint x="0.5" y="0.75" perimeter="0" />
     </connections>
     <foreground>
         <ellipse x="30" y="40" w="40" h="40" />
